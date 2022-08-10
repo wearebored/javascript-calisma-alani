@@ -24,9 +24,9 @@ console.log(b)
     b = 12;
     console.log(b);
 }
-console.log(b)
+console.log(b);
 
-{
+console.log("1. sayının tipi:", typeof a)
 
-
-}
+let deger1 = +prompt("bir veri giriniz:");
+console.log(typeof deger1);
