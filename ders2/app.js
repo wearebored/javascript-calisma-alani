@@ -47,11 +47,11 @@ console.log(car);
 
 document.write(car)
 
-// function print(yazı) {
-//     document.write(yazı)
+function print(yazı) {
+    document.write(yazı)
 
-// }
-// print("yazdırma işlemi tamam")
+}
+print("yazdırma işlemi tamam")
 // print(car)
-
-
+console.log("api")
+console.log(`MERHABA ${a}`)
