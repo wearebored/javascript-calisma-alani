@@ -44,3 +44,14 @@ const car = {
 console.log(car);
 car.model = "y serisi";
 console.log(car);
+
+document.write(car)
+
+// function print(yazı) {
+//     document.write(yazı)
+
+// }
+// print("yazdırma işlemi tamam")
+// print(car)
+
+
