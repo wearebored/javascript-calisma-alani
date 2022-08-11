@@ -31,27 +31,33 @@
 // let deger1 = +prompt("bir veri giriniz:");
 // console.log(typeof deger1);
 
-const a = 5;
-console.log(a)
-// a = 7
-console.log(a)
+// const a = 5;
+// console.log(a)
+// // a = 7
+// console.log(a)
 
-const car = {
-    color : "red",
-    model : "s serisi",
-    yakıt : "dizel",
-}
-console.log(car);
-car.model = "y serisi";
-console.log(car);
+// const car = {
+//     color : "red",
+//     model : "s serisi",
+//     yakıt : "dizel",
+// }
+// console.log(car);
+// car.model = "y serisi";
+// console.log(car);
 
-document.write(car)
+// document.write(car)
 
-function print(yazı) {
-    document.write(yazı)
+// function print(yazı) {
+//     document.write(yazı)
 
-}
-print("yazdırma işlemi tamam")
-// print(car)
-console.log("api")
-console.log(`MERHABA ${a}`)
+// }
+// print("yazdırma işlemi tamam")
+// // print(car)
+// console.log("api")
+// console.log(`MERHABA ${a}`)
+
+let m = ""
+let n = ` `
+console.log(Boolean(m))
+console.log(Boolean(n))
+
