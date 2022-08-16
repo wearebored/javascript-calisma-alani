@@ -27,3 +27,20 @@
 
 // }
 
+// POZİTİF NEGATİF SAYI BELİRLEME
+
+// let a = +prompt("bir sayı giriniz:")
+// if (a==0){
+//     console.log("girdiğiniz sayı 0 dır.")
+
+// }
+// else if (a>0){
+//     console.log("girdiğiniz sayı pozitif sayıdır.")
+
+// }
+// else{
+//     console.log("girdiğiniz sayı negatif sayıdır.")
+// }
+
+
+
