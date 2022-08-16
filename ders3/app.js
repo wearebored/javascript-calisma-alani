@@ -10,6 +10,13 @@
 // let alan = ((s*(s - kenar1)*(s-kenar2)*(s-kenar3))**(1/2))
 // console.log(`üçgenin alanı:${alan}`)
 
+// let a = +prompt("1. kenarı giriniz:")
+// let b = +prompt("2. kenarı giriniz:")
+
+// let d_alan = a*b
+// console.log(`dikdörtgenin alanı:${d_alan}`)
+
+
 
 
 
