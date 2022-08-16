@@ -16,7 +16,9 @@
 // let d_alan = a*b
 // console.log(`dikdörtgenin alanı:${d_alan}`)
 
-
-
-
+// let yarı_cap = +prompt("Dairenin yarı çapını giriniz:")
+// let d_alan = Math.PI * (yarı_cap**2)
+// let d_cevre = Math.PI * yarı_cap * 2
+// console.log(`Dairenin alanı:${d_alan}`)
+// console.log(`Dairenin çevresi:${d_cevre}`)
 
