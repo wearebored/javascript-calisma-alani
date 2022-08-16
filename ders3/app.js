@@ -22,3 +22,19 @@
 // console.log(`Dairenin alanı:${d_alan}`)
 // console.log(`Dairenin çevresi:${d_cevre}`)
 
+
+// const zaman = new Date();
+// console.log(`day of month is ${zaman.getHours()}`)
+// console.log(`month of year is ${zaman.getMonth()+1}`)
+// console.log(`year is ${zaman.getFullYear()}`)
+
+let a = prompt("1. sayıyı giriniz:")
+let b = prompt("2. sayıyı giriniz:")
+let c = prompt("3. sayıyı giriniz:")
+
+a = a[a.length-1]
+b = b[b.length-1]
+c = c[c.length-1]
+sayaç = 0
+let sonuç = a===b || a===c || b===c
+console.log(sonuç)
