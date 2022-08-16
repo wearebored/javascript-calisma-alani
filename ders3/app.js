@@ -3,6 +3,12 @@
 // console.log(`2 sayının toplamı:${+sayı1 + +sayı2}`)
 // console.log(`2 sayının çarpımı:${sayı1 * sayı2}`)
 
+// let kenar1 = +prompt("1. kenar uzunluğunu giriniz:")
+// let kenar2 = +prompt("2. kenar uzunluğunu giriniz:")
+// let kenar3 = +prompt("3. kenar uzunluğunu giriniz:")
+// let s = (kenar1 + kenar2 + kenar3)/2
+// let alan = ((s*(s - kenar1)*(s-kenar2)*(s-kenar3))**(1/2))
+// console.log(`üçgenin alanı:${alan}`)
 
 
 
