@@ -119,4 +119,9 @@
 // }
 
 
+//         TERNARY YAPILARI
+
+// let a = prompt("Bir hız değeri giriniz:")
+// a>=100 ? console.log("Çok hızlısınız.") : console.log("Hızınız normal.")
+
 
