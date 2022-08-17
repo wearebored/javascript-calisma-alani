@@ -86,6 +86,37 @@
 // a = a.substring(1, (a.length-1))
 // console.log(`ilk ve son harf çıkarılmış hali:${a}`)
 
+// DERS PROGRAMI 
+
+
+// let gün = prompt("hangi günün programını öğreneceksiniz:")
+// switch (gün) {
+//     case "pazartesi":
+//         console.log(`${gün} InClass var.`)
+//         break;
+//     case "salı":
+//         console.log(`${gün} InClass var.`)
+//         break;
+//     case "çarşamba":
+//         console.log(`${gün} InClass var.`)
+//         break;
+//     case "perşembe":
+//         console.log(`${gün} InClass var.`)
+//         break;
+//     case "cuma":
+//         console.log(`${gün} Teamwork var.`)
+//         break;
+//     case "cumartesi":
+//         console.log(`${gün} InClass + Workshop var.`)
+//         break;
+//     case "pazar":
+//         console.log(`${gün} Self-Study var.`)
+//         break;
+
+//     default:
+//         console.log("Yanlış gün girildi.")
+//         break;
+// }
 
 
 
