@@ -7,7 +7,6 @@
 // }
 // console.log(`Girdiğin ${adet} adet sayının toplamları: ${toplam}`)
 
-
 // RASTGELE SAYI ÜRETME
 // for (i = 0; i<10; i++){
 //     console.log(Math.floor(Math.random()*100));
@@ -40,6 +39,20 @@
 //     else{
 //         sayı = +prompt("tekrar sayı giriniz:")
 //     }
-    
-// }
 
+// }
+let n1 = null;
+let n2 = null;
+let n3 = null;
+const buyukbul = function (n1, n2, n3 = Number.NEGATIVE_INFINITY) {
+  let büyüksayı;
+  if (n1 >= n2 && n1 >= n3) {
+    büyüksayı = n1;
+  } else if (n2 >= n1 && n2 >= n3) {
+    büyüksayı = n2;
+  } else if (n3 >= n2 && n3 >= n1) {
+    büyüksayı = n3;
+  }
+  return büyüksayı;
+};
+console.log("girlen en büyük", buyukbul(1, -2, 1));
