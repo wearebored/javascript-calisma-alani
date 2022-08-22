@@ -1,41 +1,59 @@
-// console.log("start");
-
-// FONKSİYONLARR
-
-// function yaş_yazdır(yaş) {
-//   console.log(`Ben ${yaş} yaşındayım.`);
-// }
-// yaş_yazdır(24);
-
-// YAŞ HESABI
-
-// function yaş_hesabı(isim, doğum_yılı) {
-//   let yaşı = 2022 - doğum_yılı;
-//   console.log(`${isim} yaşınız: ${yaşı}`);
-//   return isim, yaşı;
-// }
-// yaş_hesabı("enes", 1997);
-
-//         2. YÖNTEMLE FONKS ATAMA MODERN JAVASCRİPT
-
-// const yaş_hesap = function (isim, doğum_yılı) {
-//   let yaşı = 2022 - doğum_yılı;
-//   console.log(`${isim} yaşınız: ${yaşı}`);
-// };
-
-// yaş_hesap("enes", 1997);
-
-// 3 SAYININ EN BÜYÜĞÜNÜ BULAN FONKSİYON
-
-// const en_büyük = function (n1, n2, n3 = Number.NEGATIVE_INFINITY) {
-//   if (n1 >= n2 && n1 >= n3) {
-//     console.log(`Girilen en büyük sayı : ${n1}`);
-//   } else if (n2 >= n1 && n2 >= n3) {
-//     console.log(`Girilen en büyük sayı : ${n2}`);
-//   } else if (n3 >= n1 && n3 >= n2) {
-//     console.log(`Girilen en büyük sayı : ${n3}`);
-//   } else {
-//     console.log("girilen sayılarda hata var.");
+function toplama(a, b) {
+  return a + b;
+}
+function cik(a, b) {
+  return a - b;
+}
+function car(a, b) {
+  return a * b;
+}
+function bol(a, b) {
+  return a / b;
+}
+function hesM(a, b, islem) {
+  if (islem == "+") {
+    console.log(toplama(a, b));
+  } else if (islem == "-") {
+    console.log(cik(a, b));
+  } else if (islem == "*") {
+    console.log(car(a, b));
+  } else if (islem == "/") {
+    console.log(bol(a, b));
+  } else {
+    console.log("girilen parametreler hatalidir");
+  }
+}
+hesM(3, 3, "+");
+// const tablo = function (num1, num2, islem) {
+//   let sonuc;
+//   if (islem === "+") {
+//     sonuc = num1 + num2;
+//     console.log(num1 + num2);
+//   } else if (islem === "-") {
+//     sonuc = num1 - num2;
+//     console.log(num1 - num2);
+//   } else if (islem === "/") {
+//     sonuc = num1 / num2;
+//     console.log(num1 / num2);
+//   } else if (islem === "*") {
+//     sonuc = num1 * num2;
+//     console.log(num1 * num2);
 //   }
+//   return sonuc;
 // };
-// en_büyük(-24, -12, 2);
+// const topa = function (num1, num2) {
+//   return num1 + num2;
+// };
+// const carp = function (num1, num2) {
+//   return num1 * num2;
+// };
+// const cıkra = function (num1, num2) {
+//   return num1 - num2;
+// };
+// const bol = function (num1, num2) {
+//   return num1 / num2;
+// };
+// tablo(3, 5, "+");
+// tablo(3, 5, "-");
+// tablo(3, 5, "*");
+// tablo(3, 5, "/");
