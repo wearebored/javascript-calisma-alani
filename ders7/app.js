@@ -10,13 +10,15 @@
 
 // FİBONACCI ÇÖZÜM
 
-const fib = function (n) {
-  let başlangıç = 1;
-  let son_2 = 1;
-  for (let sayaç = 0; sayaç < n - 3; sayaç++) {
-    son_2 = başlangıç;
-    başlangıç += son_2;
-  }
-  return başlangıç;
-};
-console.log(fib(6));
+// const fib = function (n) {
+//   let başlangıç = 1;
+//   let son_2 = 1;
+//   let yedek = 0;
+//   for (let sayaç = 2; sayaç < n; sayaç++) {
+//     yedek = başlangıç;
+//     başlangıç += son_2;
+//     son_2 = yedek;
+//   }
+//   return başlangıç;
+// };
+// console.log(fib(7));
