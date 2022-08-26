@@ -22,5 +22,10 @@
 
 // CÜMLEDE KELİME ARAMA
 
-const cümle = "string içErisinde kelime arama.";
-console.log(cümle.toLocaleLowerCase().includes("içe"));
+// const cümle = "string içErisinde kelime arama.";
+// console.log(cümle.toLocaleLowerCase().includes("içe"));
+
+// SEARCH -ARAMA
+let metin = prompt("metini giriniz:");
+let aranacak = /[A-Z]/;
+console.log(metin.search(aranacak));
