@@ -26,6 +26,15 @@
 // console.log(cümle.toLocaleLowerCase().includes("içe"));
 
 // SEARCH -ARAMA
-let metin = prompt("metini giriniz:");
-let aranacak = /[A-Z]/;
-console.log(metin.search(aranacak));
+// let metin = prompt("metini giriniz:");
+// let aranacak = /[A-Z]/;
+// console.log(metin.search(aranacak));
+
+let metin = "Clarusway Rocks!";
+let metin2 = "";
+let sayaç = metin.length;
+for (let i = 1; i <= metin.length; i++) {
+  metin2 = metin2.concat(metin[sayaç - 1]);
+  sayaç = sayaç - 1;
+}
+console.log(metin2);
