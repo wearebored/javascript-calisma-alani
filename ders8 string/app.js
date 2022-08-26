@@ -30,11 +30,24 @@
 // let aranacak = /[A-Z]/;
 // console.log(metin.search(aranacak));
 
-let metin = "Clarusway Rocks!";
-let metin2 = "";
-let sayaç = metin.length;
-for (let i = 1; i <= metin.length; i++) {
-  metin2 = metin2.concat(metin[sayaç - 1]);
-  sayaç = sayaç - 1;
-}
-console.log(metin2);
+// let metin = "Clarusway Rocks!";
+// let metin2 = "";
+// let sayaç = metin.length;
+// for (let i = 1; i <= metin.length; i++) {
+//   metin2 = metin2.concat(metin[sayaç - 1]);
+//   sayaç = sayaç - 1;
+// }
+// console.log(metin2);
+
+// let a = "days. big make things Little";
+// let b = "";
+// let sayaç = a.length;
+// console.log(a.lastIndexOf(" ", sayaç - 1));
+// sayaç = a.lastIndexOf(" ", sayaç - 1);
+// console.log(a.lastIndexOf(" ", sayaç - 1));
+// sayaç = a.lastIndexOf(" ", sayaç - 1);
+// console.log(a.lastIndexOf(" ", sayaç - 1));
+// sayaç = a.lastIndexOf(" ", sayaç - 1);
+// console.log(a.lastIndexOf(" ", sayaç - 1));
+// sayaç = a.lastIndexOf(" ", sayaç - 1);
+// console.log(a.lastIndexOf(" ", sayaç - 1));
