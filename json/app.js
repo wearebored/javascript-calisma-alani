@@ -52,22 +52,22 @@
 // sayaç = a.lastIndexOf(" ", sayaç - 1);
 // console.log(a.lastIndexOf(" ", sayaç - 1));
 
-const degerler = [
-  { name: "enes", surname: "gweas", age: "25" },
-  { name: "erw", surname: "gowww", age: "24" },
-  { name: "fsd", surname: "grqs", age: "21" },
-  { name: "ewr", surname: "gqweas", age: "20" },
-];
+// const degerler = [
+//   { name: "enes", surname: "gweas", age: "25" },
+//   { name: "erw", surname: "gowww", age: "24" },
+//   { name: "fsd", surname: "grqs", age: "21" },
+//   { name: "ewr", surname: "gqweas", age: "20" },
+// ];
 
-const newname = degerler.map((p) => ({
-  name: p.name.concat(" " + p.surname).toUpperCase(),
-  age: +p.age + 5,
-}));
-console.log(newname);
+// const newname = degerler.map((p) => ({
+//   name: p.name.concat(" " + p.surname).toUpperCase(),
+//   age: +p.age + 5,
+// }));
+// console.log(newname);
 
-const kucuk = degerler.filter((p) => p.age <= 22).map((p) => p.name);
-console.log(kucuk);
+// const kucuk = degerler.filter((p) => p.age <= 22).map((p) => p.name);
+// console.log(kucuk);
 
-const ortalama = degerler.reduce((acc, val) => acc + Number(val.age), 0)/degerler.length;
-console.log(ortalama);
+// const ortalama = degerler.reduce((acc, val) => acc + Number(val.age), 0)/degerler.length;
+// console.log(ortalama);
 
