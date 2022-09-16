@@ -22,3 +22,7 @@
 //   return başlangıç;
 // };
 // console.log(fib(7));
+// const sayı = prompt("hesaplanacak değer");
+// const hesap = (100 * sayı) / 118;
+// console.log(hesap);
+// console.log(hesap + (hesap * 18) / 100);
